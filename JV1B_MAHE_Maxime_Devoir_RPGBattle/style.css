@@ -1,0 +1,54 @@
+body{
+    height : 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img{
+    width : 500px;
+    height : 500px;
+ 
+}
+
+#dialogue{
+    align-self: center;
+    width : 500px;
+    height : 500px;
+ 
+}
+
+#champbattle{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Hero{
+    display: flex;
+    flex-direction: column;
+}
+
+#Enemies{
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.perso{
+    display: flex;
+
+}
+
+.action:hover{
+    color:red;
+}
+
+p{
+    font-size: 100px;
+    display: inline-block;
+
+}
